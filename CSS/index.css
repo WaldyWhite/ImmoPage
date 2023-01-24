@@ -16,7 +16,7 @@ body{
 .button p,.caption,.person,b{
     font-weight:700
 }
-.content{
+.content{ 
     margin:0 auto;
     height:1131px;
     width:1366px;
@@ -78,12 +78,17 @@ body{
     height:785px
 }
 .flats li{
+    box-shadow: 2px 2px 8px;
     width:369px;
     height:377px;
     margin-bottom:30px;
     background-color:#fff;
     margin-left:29.5px;
     float:left}
+    .flats li:hover{
+        box-shadow: 4px 4px 12px ;
+
+    }
 .coments ul li:first-child,.flats li:nth-child(3n+1){
     margin-left:0
 }
@@ -109,7 +114,13 @@ body{
 .data,.person{margin-left:80px}
 .button p{margin:0 auto;font-size:15px;padding:10px;width:135px;border:1px solid #2a2a2a;border-radius:20px}
 .coments{margin-top:90px}
-.coments ul li{line-height:22px;margin-left:30px;padding:30px;background-color:#f4efed;width:508px;float:left}
+.coments ul li{
+    box-shadow: 1px 1px 5px;
+    line-height:22px;
+    margin-left:30px;
+    padding:30px;
+    background-color:#f4efed;
+    width:508px;float:left}
 .coments ul li img{width:50px;height:50px;border-radius:50px;margin-top:20px;float:left}
 .person{margin-top:20px}
 .punkts img{margin:0 20px 0 0}
