@@ -1,143 +1,138 @@
-/* ----- header ----- */
+body{
+
+    margin: 0;
+}
+.button,.caption{
+    text-align:center
+}
+.coments ul li,.content{
+    font-family:Roboto;
+    color:#2a2a2a;
+    font-size:16px
+}
+.adress,.coments ul li,.room img,.room p{
+    display:block
+}
+.button p,.caption,.person,b{
+    font-weight:700
+}
 .content{
-    margin: 0 auto;
-    height: 1100px;
-    width: 1366px;
-    background-color: #f5f5f5;
-    font-size: 16px;
-    font-family: "Roboto";
-    color: rgb(42, 42, 42);
-    line-height: 1.375;
+    margin:0 auto;
+    height:1131px;
+    width:1366px;
+    background-color:#f5f5f5;
+    line-height:1.375
 }
-b{
-    font-weight: bold;
+.links,.tel-number{
+    margin-top:29px
 }
+.tel-number li:last-child a{
+    font-size: 15px;
+
+}
+.tel-number li:last-child{
+    margin-top: -8px;
+    padding: 5px 15px 9px 15px;
+    border: 1px solid #f4efed;
+    border-radius:20px;
+}
+
+
 .header-menu{
-    height: 80px;
-    background-color: #2a2a2a;
+    height:80px;
+    background-color:#2a2a2a
 }
 .navigation{
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left:100px;
+    margin-right:100px}
+.links,.navigation .tel-number li{
+    margin-left:50px;
+    float:left
 }
 .navigation img{
-    margin-top: 21px;
-    display: block;
-    width: 35px;
-    height: 38px;
-    float: left;
-
-}
-
-.links{
-    float: left;
-    margin-left: 50px;
-    margin-top: 29px;
+    margin-top:21px;
+    display:block;
+    width:35px;
+    height:38px;
+    float:left
 }
 .navigation .links li{
-    float: left;
-    margin-right: 49px
+    float:left;
+    margin-right:49px
 }
-
 .navigation ul li a{
-    text-decoration: none;
-    font-size: 1.125rem;
-    color: rgb(255, 255, 255);
-    line-height: 1.333;
+    text-decoration:none;
+    font-size:18px;
+    color:#fff;
+    line-height:1.333
 }
+.button p:hover,.navigation li:hover,.navigation a img:hover{opacity:.4}
 .tel-number{
-    float: left;
-    margin-top: 29px;
-    margin-left: 289px;
+    float:left;
+    margin-left:282px
 }
-.navigation .tel-number li{
-    float: left;
-    margin-left: 50px;
-}
-/* ----- / header -----*/
-/* ----- main-content -----*/
-.main-content{
-    margin-right: 100px;
-    margin-left: 100px;
-}
-.main-content a{
-    text-decoration: none;
-    font-size: 15px;
-    font-family: "Roboto";
-    color: rgb(42, 42, 42);
-    line-height: 1.467
-      
-}
-.caption{
-    margin-top: 38px;
-    margin-bottom: 37px;
-    text-align: center;
-    font-size: 2rem;
-    font-weight: bold;
-    line-height: 1.5;
-}
+.main-content{margin-right:100px;margin-left:100px}
+.main-content a{text-decoration:none;font-size:15px;font-family:Roboto;color:#2a2a2a;line-height:1.467}
+.caption{margin-top:38px;margin-bottom:37px;font-size:2rem;line-height:1.5}
 .flats{
-    height: 785px;
+    height:785px
 }
 .flats li{
     width:369px;
-    height: 377px;
-    margin-bottom: 30px;
-    background-color: white;
-    margin-left: 29.5px;
-    float: left;
+    height:377px;
+    margin-bottom:30px;
+    background-color:#fff;
+    margin-left:29.5px;
+    float:left}
+.coments ul li:first-child,.flats li:nth-child(3n+1){
+    margin-left:0
 }
-.flats li:nth-child(3n+1){
-    margin-left: 0px;
-
-}
-.flats li:nth-child(3n){
-    margin-right: 0px;
-
+.coments ul li:last-child,.flats li:nth-child(3n){
+    margin-right:0
 }
 .adress{
-    font-size: 18px;
-    line-height: 1.333;
-    display:block;
-    margin-top: 30px;
-    margin-left: 40px;
+    font-size:18px;
+    line-height:1.333;
+    margin-top:30px;
+    margin-left:40px
+}
+.data,.room p{
+    font-size:14px
 }
 .room{
-    margin-top: 15px;
-    margin-left: 23px;
-    margin-bottom: 73px;
-}
-.room p{
+    margin: 15px 0 73px 23px;
 
-    font-size: 14px;
-    line-height: 1.429;
-    margin-left: 15px;
-    float: left;
-    display:block;
 }
-.room img{
-    margin-right: 5px;
-    margin-top: 2px;
-    display: block;
-    float: left;
-}
-
-/* ----- / main-content ----- */
-.button{
-    height: 42px;
-    margin: 49px auto 0 auto;
+.room p{line-height:1.429;margin-left:15px;float:left}
+.room img{margin-right:5px;margin-top:2px;float:left}
+.button{height:42px;margin:49px auto 0}
+.data,.person{margin-left:80px}
+.button p{margin:0 auto;font-size:15px;padding:10px;width:135px;border:1px solid #2a2a2a;border-radius:20px}
+.coments{margin-top:90px}
+.coments ul li{line-height:22px;margin-left:30px;padding:30px;background-color:#f4efed;width:508px;float:left}
+.coments ul li img{width:50px;height:50px;border-radius:50px;margin-top:20px;float:left}
+.person{margin-top:20px}
+.punkts img{margin:0 20px 0 0}
+.punkts{height:0;background-color:#0ff;margin-left:548px;margin-top:256px}
+.coments-button div{margin-top:56px;margin-bottom:42px}
+.label{
+    float: right;
+    background-color: #2a2a2a;
+    width: 84px;
+    height: 26px;
+    padding: 12px 0;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: "Roboto";
+    color: rgb(255, 255, 255);
+    line-height: 1.333;
     text-align: center;
-}
-.button p{
-    margin: 0 auto;
-    font-size: 15px;
-    font-weight: bold;
-    padding: 10px;
-    width: 135px;
-    border: 1px solid rgb(42, 42, 42);
-    border-radius: 20px;
+    position: relative;
+    left: -15px;
+    bottom: 215px;
+
+
 }
 
-.button p:hover{
-    opacity: 0.4;
-}
+
+
